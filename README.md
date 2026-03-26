@@ -7,7 +7,9 @@
   4. No terminal que abrir, rode:
 
      pip install torch --index-url https://download.pytorch.org/whl/cpu
+     
      pip install -r requirements.txt
+     
      python main.py
 
   Os graficos gerados ficam salvos na pasta plots/ do projeto.
