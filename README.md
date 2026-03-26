@@ -1,1 +1,13 @@
+ ## Aviso ao Professor                                                                                                                                                                                                                                                                                                                                                                                                                                   
+  Este projeto esta hospedado e pode ser executado diretamente na nuvem                                                                                                                                                        via GitHub Codespaces
+  Para acessar e rodar o codigo:
+  1. Clique no botao verde "Code" (canto superior direito)
+  2. Clique na aba "Codespaces"
+  3. Clique em "Create codespace on master"
+  4. No terminal que abrir, rode:
 
+     pip install torch --index-url https://download.pytorch.org/whl/cpu
+     pip install -r requirements.txt
+     python main.py
+
+  Os graficos gerados ficam salvos na pasta plots/ do projeto.
