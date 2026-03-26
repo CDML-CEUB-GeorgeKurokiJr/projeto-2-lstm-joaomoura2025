@@ -6,6 +6,27 @@ proxy para o agronegocio brasileiro.
 
 ---
 
+## Professor — Como executar o projeto
+
+O ambiente de execucao esta configurado via **GitHub Codespaces**.
+Para rodar o projeto sem instalar nada:
+
+1. Clique no botao verde **`<> Code`** (canto superior direito desta pagina)
+2. Clique na aba **`Codespaces`**
+3. Clique em **`Create codespace on master`**
+4. Aguarde o ambiente abrir (VS Code no navegador)
+5. No terminal, rode os comandos abaixo:
+
+```bash
+pip install torch --index-url https://download.pytorch.org/whl/cpu
+pip install -r requirements.txt
+python main.py
+```
+
+Os graficos serao salvos na pasta `plots/` — clique em qualquer `.png` para visualizar.
+
+---
+
 ## Ativos Analisados
 
 | Ativo         | Ticker Yahoo Finance | Cotacao CBOT         | Equivalencia BR                     |
